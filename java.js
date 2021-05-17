@@ -18,14 +18,19 @@ function car(make, model, year) {
     this.model = model;
     this.year = year;
   }
+  const arraycars=[]
+  arraycars.push(new car("audi","a1",1302))
+  arraycars.push(new car("opel","a2",2207))
+  arraycars.push(new car("nissan","a3",2006))
+  arraycars.push(new car("honda","a4",2012))
+  arraycars.push(new car("bmw","a5",2015))
+  arraycars.push(new car("mercedes","a6",1999))
+  arraycars.push(new car("fiat","a7",1907))
+  arraycars.push(new car("fort","a8",2002))
+  arraycars.push(new car("smart","a9",2018))
+  arraycars.push(new car("tessla","a10",2019))
 
-  console.log(new car("audi","a1",1302))
-  console.log(new car("opel","a2",2207))
-  console.log(new car("nissan","a3",2006))
-  console.log(new car("honda","a4",2012))
-  console.log(new car("bmw","a5",2015))
-  console.log(new car("mercedes","a6",1999))
-  console.log(new car("fiat","a7",1907))
-  console.log(new car("fort","a8",2002))
-  console.log(new car("smart","a9",2018))
-  console.log(new car("tessla","a10",2019))
+for(cars in arraycars){
+    console.log(arraycars[cars])
+}
+
